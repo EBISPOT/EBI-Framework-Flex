@@ -283,4 +283,32 @@
     a { border-bottom: none; color: $ebi-colour-dark-grey; }
     a:hover { border-bottom: 1px dotted; }
   }
+
+
+
+  // JM: Fix broken EBI header and footer when foundation flex is enabled
+
+  #global-nav-expanded > .medium-up-5 {
+    display: flex !important;
+    flex-flow: row wrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  #global-nav {
+    flex-direction: row-reverse !important;
+    width: 100%;
+    justify-content: center;
+  }
+  #global-search {
+    width: 60% !important;
+  }
+  #search-bar > .row {
+    justify-content: center;
+  }
+  #embl-bar .padding-top-medium {
+    display: none;
+  }
+
+
+
 }

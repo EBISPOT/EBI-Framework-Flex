@@ -16,7 +16,7 @@ h1											{ padding: 20px 0px 0px 0px; color: #268eff; letter-spacing: -1px; 
 input.filter								{ width: 203px; height: 30px; margin: 0px 0px 10px 0px; padding: 0px 5px 0px 5px; border: 1px solid #2a5d9c; font-size: 16px; color: #ffffff; background: #112f55; float: left; display: inline; }
 input.reset									{ width: 80px; height: 32px; padding: 0px; margin: 0px 0px 0px 5px; float: left; display: inline; }
 .list_filter ul								{ list-style: none; margin: 0px; padding: 0px; }
-.list_filter ul li							{ width: 300px; height: 30px; margin: 0px; border-bottom: 1px solid #061220; background: url(../images/list-item-bg.gif) 0px 0px no-repeat; }
+.list_filter ul li							{ width: 300px; height: 30px; margin: 0px; border-bottom: 1px solid #061220; background: url(https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/list-item-bg.gif) 0px 0px no-repeat; }
 .list_filter ul li	a						{ display: block; width: 293px; height: 23px; padding: 7px 0px 0px 7px; color: #ffffff; text-decoration: none; }
 .list_filter ul li	a:hover					{ text-decoration: underline; }
 	

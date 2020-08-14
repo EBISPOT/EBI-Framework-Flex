@@ -1999,6 +1999,26 @@ dl dt {
   dl dt a:hover {
     border-bottom: 1px dotted; }
 
+#global-nav-expanded > .medium-up-5 {
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: center !important;
+  width: 100% !important; }
+
+#global-nav {
+  flex-direction: row-reverse !important;
+  width: 100%;
+  justify-content: center; }
+
+#global-search {
+  width: 60% !important; }
+
+#search-bar > .row {
+  justify-content: center; }
+
+#embl-bar .padding-top-medium {
+  display: none; }
+
 .title-cap {
   text-transform: capitalize; }
 
@@ -2618,7 +2638,7 @@ body header nav .menu.dropdown > .has-submenu.is-down-arrow > a::after {
     display: block;
     height: 53px;
     width: 89%;
-    background-image: url("../images/logos/EMBL-EBI/EMBL_EBI_Logo_black.svg");
+    background-image: url("https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/EMBL_EBI_Logo_black.svg");
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: -.25rem;
@@ -2777,7 +2797,7 @@ a.medium-gray-background, .medium-gray-background, .medium-gray-background.butto
   .masthead-black-bar .embl-selector .button.hover,
   .masthead-black-bar .embl-selector .button:focus,
   .masthead-black-bar .embl-selector .button:hover {
-    background: no-repeat 100% 50% url("../images/logos/EMBL/EMBL-white.svg");
+    background: no-repeat 100% 50% url("https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL/EMBL-white.svg");
     padding-left: 2px;
     background-size: 62px;
     width: 63px;
@@ -2802,7 +2822,7 @@ a.medium-gray-background, .medium-gray-background, .medium-gray-background.butto
   .masthead-black-bar .embl-selector.embl-ebi .button.hover,
   .masthead-black-bar .embl-selector.embl-ebi .button:focus,
   .masthead-black-bar .embl-selector.embl-ebi .button:hover {
-    background: no-repeat 4px 50% url("../images/logos/EMBL-EBI/EMBL_EBI_Logo_white.svg");
+    background: no-repeat 4px 50% url("https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/EMBL_EBI_Logo_white.svg");
     padding-left: 95px;
     background-size: 100px; }
   .masthead-black-bar .embl-selector.active {
@@ -2813,12 +2833,12 @@ a.medium-gray-background, .medium-gray-background, .medium-gray-background.butto
     .masthead-black-bar .embl-selector.active .button:focus,
     .masthead-black-bar .embl-selector.active .button:hover {
       cursor: n-resize;
-      background-image: url("../images/logos/EMBL/EMBL-black.svg"); }
+      background-image: url("https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL/EMBL-black.svg"); }
   .masthead-black-bar .embl-selector.active.embl-ebi .button,
   .masthead-black-bar .embl-selector.active.embl-ebi .button.hover,
   .masthead-black-bar .embl-selector.active.embl-ebi .button:focus,
   .masthead-black-bar .embl-selector.active.embl-ebi .button:hover {
-    background-image: url("../images/logos/EMBL-EBI/EMBL_EBI_Logo_black.svg"); }
+    background-image: url("https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/EMBL_EBI_Logo_black.svg"); }
   @media screen and (max-width: 53em) {
     .masthead-black-bar li.embl-selector {
       padding-left: .5rem; }
